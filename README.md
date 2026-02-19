@@ -8,6 +8,7 @@ To start Application
 npm run start
 npx playwright codegen http://localhost:4200/pages 
 
+
 npx playwright test tests/datePicker.spec.ts --headed 
 npx playwright test tests/datePicker.spec.ts --project=chromium
 
