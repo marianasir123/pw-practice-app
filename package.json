@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "projectchromium": "npx playwright test tests/formLayout.spec.ts --project=chromium",
+    "projectchromium": "npx playwright test formLayout.spec.ts --project=chromium",
     "project-allbrowsers": "npx playwright test tests/autoWait.spec.ts --project=chromium & --project =firefox",
     "autoWaitTest": "URL=http://uitestingplayground.com/ajax npx playwright test autoWait.spec.ts --project=chromium"
   },
